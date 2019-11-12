@@ -4,10 +4,10 @@
 
 #main{
     display: grid;
-    width: 1433px;
-    height: 770px;
+    width: 1550px;
+    height: 900px;
     grid-template-columns: repeat(18, 1fr);
-    grid-template-rows: repeat(11, 1fr);
+    grid-template-rows: repeat(10, 1fr);
 }
 
 img {
@@ -15,14 +15,6 @@ img {
     height: 100%;
 }
 
-.pictures{
-    width: 100%;
-    height: 100%;
-    background-color: brown;
-    border: 1px solid green;
-    font-size: 3em;
-    text-align: center;
-}
 
 #div1{
     grid-column: 1/ span 3;
@@ -140,41 +132,106 @@ img {
 }
 
 #div24{
-    grid-column: ;
-    grid-row: ;
+    grid-column: 1/span 2;
+    grid-row: 6/span 2;
 }
 
 #div25{
-    grid-column: ;
-    grid-row: ;
+    grid-column: 3/span 2;
+    grid-row: 6/span 2;
 }
 
 #div26{
-    grid-column: ;
-    grid-row: ;
+    grid-column: 1/span 4;
+    grid-row: 8/span 1;
 }
 
 #div27{
-    grid-column: ;
-    grid-row: ;
+    grid-column: 5/span 4;
+    grid-row: 6/span 1;
 }
 
 #div28{
-    grid-column: ;
-    grid-row: ;
+    grid-column: 5/span 2;
+    grid-row: 7/span 2;
 }
 
 #div29{
-    grid-column: ;
-    grid-row: ;
+    grid-column: 7/span 2;
+    grid-row: 7/span 2;
 }
 
 #div30{
-    grid-column: ;
-    grid-row: ;
+    grid-column: 9/span 4;
+    grid-row: 6/span 2;
 }
 
-#div29{
-    grid-column: ;
-    grid-row: ;
+#div31{
+    grid-column: 9/span 6;
+    grid-row: 8/span 1;
+}
+
+#div32{
+    grid-column: 15/span 2;
+    grid-row: 7/span 3;
+}
+
+#div33{
+    grid-column: 17/span 2;
+    grid-row: 7/span 3;
+}
+
+#div34{
+    grid-column: 1/span 3;
+    grid-row: 9/span 2;
+}
+
+#div35{
+    grid-column: 1/span 3;
+    grid-row: 11/span 1;
+}
+
+#div36{
+    grid-column: 4/span 1;
+    grid-row: 9/span 3;
+}
+
+#div37{
+    grid-column: 5/span 4;
+    grid-row: 9/span 2;
+}
+
+#div38{
+    grid-column: 5/span 4;
+    grid-row: 11/span 1;
+}
+
+#div39{
+    grid-column: 9/span 2;
+    grid-row: 9/span 3;
+}
+
+#div40{
+    grid-column: 11/span 4;
+    grid-row: 9/span 2;
+}
+
+#div41{
+    grid-column: 11/span 2;
+    grid-row: 11/span 1;
+}
+
+#div42{
+    grid-column: 13/span 2;
+    grid-row: 11/span 1;
+}
+
+#div43{
+    grid-column: 15/span 4;
+    grid-row: 10/span 1;
+}
+
+#div44{
+    grid-column: 15/span 4;
+    grid-row: 11/span 1;
 }
